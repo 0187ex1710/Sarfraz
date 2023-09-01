@@ -1,3 +1,10 @@
+
+
+a{
+    text-decoration: none;
+    
+}
+
 .togglelabel{
     display: none;
     font-size: 30px;
@@ -498,19 +505,25 @@ border:none;
          /* ============================freelance===========================*/
        .freelance{
         background-color: aqua;
-        display: block;
-        justify-content: center;
-        padding-bottom: 80px;
+        padding-bottom: 0px;
         overflow-x: hidden;
+        position: relative;
+        top: -40px;
 
        }
-       
+       .da{
+        font-size: 45px;
+        
+       }
+    
 
        .freelance1{
         background-color: rgb(210, 18, 18);
         color: white;
         padding: 15px;
-        margin-right: 60px;
+        margin-right: 0px;
+        position: relative;
+        top: -20px;
         
         }
         .freelance1:hover{
@@ -524,10 +537,16 @@ border:none;
 
          .myblog{
             display: block;
-            justify-content: center;
+            
             font-size: 17px;
-            
-            
+            position: relative;
+            top: -100px;
+            left: 20px;
+        }
+        .ya{
+            position: relative;
+            right: 48px;
+            top: -100px;
         }
             .myblog div{
                 overflow: hidden;
@@ -555,9 +574,8 @@ border:none;
 
  .contact{
     display: block;
-    justify-content: center;
-    background-image: url('https://itemsstore.net/html/trito/img/contact/background.jpg');
-    padding: 40px;
+    background-color: burlywood;
+    padding: 0px;
     overflow-x: hidden;
 }
 
@@ -567,9 +585,9 @@ border:none;
     
 }
 .contact2{
-    margin: 70px;
+    margin: 0px;
     background-color: white;
-    padding: 50px;
+    padding: 10px;
     
     
 }
@@ -578,29 +596,29 @@ border:none;
     outline: none;
     border: none;
     background: transparent;
-    width: 80px;
-    height: 20px;
+    width: 40px;
+    height: 10px;
 }
 
 .contact2 div input::placeholder{
-    font-size: 20px;
+    font-size: 15px;
 }
 .contact2 div{
-    padding: 20px 200px 20px 60px;
+    padding: 10px 100px 10px 30px;
     margin: 20px;
-    border: 2px solid rgb(10, 10, 31);
+    border: 1px solid rgb(10, 10, 31);
 }
 
 .contact2 button{
-    padding: 20px 160px 20px 160px;
+    padding: 5px 30px 5px 30px;
 }
 
 .contact2 div i{
-    font-size: 30px;
-    border-radius: 50%;
+    font-size: 10px;
+    border-radius: 30%;
     background-color: aqua;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     
 }
 
